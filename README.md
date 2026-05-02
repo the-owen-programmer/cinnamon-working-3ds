@@ -5,8 +5,9 @@ A fork of cinnamon (my old project) with stable 3DS support.
 Run these commands, use WSL on Windows.
 
 ```bash
-mkdir -p workspace
-docker run -it --rm -v "$PWD/workspace:/workspace" kurplunk/cinnamon-3ds-builder
+git clone https://github.com/KurplunkVR/cinnamon-working-3ds.git
+cd cinnamon-working-3ds
+docker compose up
 ```
 
 # How to use WSL? (Windows)
