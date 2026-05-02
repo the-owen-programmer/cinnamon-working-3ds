@@ -506,10 +506,11 @@ class TextureExtractor:
                             print("\033[31mFAILED: empty audio entry\033[0m")
                             continue
 
-                        if name.startswith("mus_") and entry.data_size < 128 * 1024:
-                            print(
-                                f"\033[33mWARN: small AUDO entry ({entry.data_size} B) for music\033[0m"
-                            )
+                        # Shut up
+                        #if name.startswith("mus_") and entry.data_size < 128 * 1024:
+                            #print(
+                            #    f"\033[33mWARN: small AUDO entry ({entry.data_size} B) for music\033[0m"
+                            #)
 
                         f.seek(entry.data_offset)
                         raw_data = f.read(entry.data_size)

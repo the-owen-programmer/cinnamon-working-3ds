@@ -1,0 +1,15 @@
+services:
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    environment:
+      DEVKITPRO: /opt/devkitpro
+      DEVKITARM: /opt/devkitpro/devkitARM
+    volumes:
+      - .:/workspace
+      - ./romfs/cinnamon/data.win:/romfs/cinnamon/data.win:ro
+    command: bash -lc 'python3 preprocessor.py "/romfs/cinnamon/data.win" && make'
+    tty: true
+    stdin_open: true
