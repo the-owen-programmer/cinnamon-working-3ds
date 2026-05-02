@@ -1,0 +1,6 @@
+build*
+output*
+cache
+gfx
+*.o
+*.d
