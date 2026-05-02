@@ -2,6 +2,9 @@
 A fork of cinnamon (my old project) with stable 3DS support.
 
 # How to build stable using docker?
+Copy the **ENTIRE** Undertale folder to
+/romfs/cinnamon/
+
 Run these commands, use WSL on Windows.
 
 ```bash
