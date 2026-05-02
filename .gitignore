@@ -31,3 +31,10 @@ build-n3ds/
 .vscode/
 build-wiiu/.map
 build-wiiu/cinnamon.lst
+cache/
+gfx/
+output/
+output-wiiu/
+romfs/gfx/
+romfs/audio/
+romfs/cinnamon/data.win
