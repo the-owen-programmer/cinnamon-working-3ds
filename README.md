@@ -1,5 +1,5 @@
-# Cinnamon
-A fork of butterscotch with 3DS and Wii U support!
+# Cinnamon working 3DS
+A fork of cinnamon (my old project) with stable 3DS support.
 
 # How to build stable using docker?
 Run these commands, use WSL on Windows.
