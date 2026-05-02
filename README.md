@@ -11,3 +11,4 @@ docker run -it --rm -v "$PWD/workspace:/workspace" kurplunk/cinnamon-3ds-builder
 
 # How to use WSL? (Windows)
 This is more complicated, but I have provided full instructions with commands you can just copy and paste into your Command Prompt!
+[WSL Setup](WSL.md)
