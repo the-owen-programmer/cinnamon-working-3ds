@@ -18,7 +18,7 @@ WSL
 ```bash
 sudo git clone https://github.com/KurplunkVR/cinnamon-working-3ds.git
 cd cinnamon-working-3ds
-sudo docker compose up
+docker compose up
 ```
 
 
