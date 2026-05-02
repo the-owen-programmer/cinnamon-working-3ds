@@ -17,6 +17,12 @@ docker compose up
 WSL
 ```bash
 sudo git clone https://github.com/KurplunkVR/cinnamon-working-3ds.git
+```
+it should say /mnt/c/cinnamon-working-3ds now, if it doesnt delete the folder and follow more closely.
+open file explorer and make the folders
+C:/cinnamon-working-3ds/romfs/cinnamon/
+the copy the contents of your undertale install (everything in the undertale folder) to that folder. there should be C:/cinnamon-working-3ds/romfs/cinnamon/data.win and everything else there now.
+```bash
 cd cinnamon-working-3ds
 docker compose up
 ```
