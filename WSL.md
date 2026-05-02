@@ -121,12 +121,9 @@ Inside WSL:
 
 ```bash
 cd /mnt/c
-mkdir -p cinnamon
-cd cinnamon
-mkdir -p workspace
-cd workspace
-docker run -it --rm -v "$PWD:/workspace" -w /workspace kurplunk/cinnamon-3ds-builder
 ```
+
+Then follow Linux instructions in the README.md
 
 ## 8. Install on your 3DS!
 The 3dsx should appear in C:/cinnamon/workspace/output/
