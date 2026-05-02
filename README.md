@@ -1,18 +1,13 @@
 # Cinnamon
 A fork of butterscotch with 3DS and Wii U support!
 
-### TO-DO:
-- Replace all glfw references with citro3d (not using citro2d because citro3d is closer) in n3ds/main.c
-- Dynamically split textures bigger than 1024x1024
-- Pad textures that do not have resolutions ^2
-- Add audio
-- Remove controller stubs and use them for input
-- Force second camera to always render to bottom screen
-- Make touchscreen register mouse click and mouse movements
+# How to build stable using docker?
+Run these commands, use WSL on Windows.
 
-### File Explanations:
-- runner.c handles events, rooms, instances, etc.
-- vm.c runs the bytecode of the game
-- renderer.h does, guess what, rendering!
-- vm_builtins.c handles built in variables and funcs
-  
+```bash
+mkdir -p workspace
+docker run -it --rm -v "$PWD/workspace:/workspace" kurplunk/cinnamon-3ds-builder
+```
+
+# How to use WSL? (Windows)
+This is more complicated, but I have provided full instructions with commands you can just copy and paste into your Command Prompt!
