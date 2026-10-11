@@ -1,6 +1,8 @@
 # Cinnamon working 3DS
 A fork of cinnamon (my old project) with stable 3DS support.
 
+Yes generative AI was used
+
 # How to build stable using docker?
 Copy the **ENTIRE** Undertale folder to
 /romfs/cinnamon/data.win after the first command
